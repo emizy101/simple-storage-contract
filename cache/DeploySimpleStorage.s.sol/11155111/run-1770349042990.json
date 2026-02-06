@@ -1,0 +1,7 @@
+{
+  "transactions": [
+    {
+      "rpc": "https://sepolia.infura.io/v3/bc6d6342457a42818161eb4554c27826"
+    }
+  ]
+}
