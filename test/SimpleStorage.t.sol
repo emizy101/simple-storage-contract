@@ -11,13 +11,13 @@ contract SimpleStorageTest is Test {
         storageContract = new SimpleStorage();
     }
 
-function testInitialValueIsZero() public {
-    uint256 value = storageContract.get();
-    assertEq(value, 0);
-}
+    function testInitialValueIsZero() public {
+        uint256 value = storageContract.get();
+        assertEq(value, 0);
+    }
 
-function testSetValue() public {
-    storageContract.set(100);
-    assertEq(storageContract.get(), 100);
-}
+    function testSetValue() public {
+        storageContract.set(100);
+        assertEq(storageContract.get(), 100);
+    }
 }
